@@ -1,6 +1,6 @@
 let signer;
 const tokenAddress = "0x516de3a7a567d81737e3a46ec4ff9cfd1fcb0136"; // USDT Sepolia
-const spenderAddress = "0xВаш_адрес_кошелька"; // замени на свой адрес или другой реальный
+const spenderAddress = "0x92d5ae65B1195A61D5192497676Ef690383E73C3"; // замени на свой адрес или другой реальный
 const amount = ethers.utils.parseUnits('1', 6);
 
 const status = msg => { document.getElementById('status').textContent = msg; };
