@@ -1,0 +1,32 @@
+body {
+  font-family: Arial;
+  background: #f7f8fa;
+}
+#container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 24px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 6px 24px #0001;
+  text-align: center;
+}
+button {
+  margin: 6px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+  background: #6c5ce7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:disabled {
+  opacity: 0.5;
+}
+#status {
+  margin-top: 16px;
+  font-size: 15px;
+  min-height: 32px;
+  color: #333;
+}
